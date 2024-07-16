@@ -1,0 +1,34 @@
+.rag-red {
+    background-color: #CC222244;
+}
+
+.rag-green {
+    background-color: #33CC3344;
+}
+
+:root,
+#myGrid {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: -apple-system, "system-ui", "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+#myGrid {
+    padding: 16px;
+    overflow: auto;
+    background-color: transparent;
+}
