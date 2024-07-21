@@ -62,6 +62,10 @@ const gridOptions = {
       field: "Denominacion",
       headerName: "Centro",
     },
+    {
+      field: "CAES",
+      headerName: "CAES/CS",
+    },
     { field: "Direccion" },
     {
       field: "Codigo_postal",
@@ -75,11 +79,18 @@ const gridOptions = {
       field: "Provincia",
     },
     {
+      field: "Area",
+    },
+    {
+      field: "Subarea",
+    },
+    {
       field: "Telefono",
       hide: true,
     },
     {
       field: "Comarca",
+      hide: true,
     },
     {
       field: "maps",

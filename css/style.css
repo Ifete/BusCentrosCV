@@ -151,12 +151,14 @@
 }
 
 
-/*** Header carousel COPILOT ***/
+/*** Adaptaciones para Ordenador ***/
 @media (min-width: 769px){
     .movile-view-msg{
         display: none;
     }
 }
+
+/*** Adaptaciones para Móvil ***/
 @media (max-width: 768px) {
     .navbar h2{
         font-size: large;
